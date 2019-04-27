@@ -1,0 +1,80 @@
+{
+  "name": "@datum-consulting-nz/rasatech-design-system",
+  "version": "0.0.0-0",
+  "description": "Datum Consulting Group's Design System",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "babel src -d dist --ignore __tests__ && yarn run format",
+    "dev": "start-storybook -p 8800 -c .storybook",
+    "build": "rm -rf .site && build-storybook -c .storybook -o .site",
+    "start": "serve .site -p 8800",
+    "deploy": "storybook-to-ghpages",
+    "format": "prettier {.storybook,src}/**/*.js --single-quote --write",
+    "coverage": "jest --coverage && serve coverage -o",
+    "test": "jest"
+  },
+  "author": "Datum Consulting NZ",
+  "license": "MIT",
+  "dependencies": {
+    "@hackclub/icons": "^0.0.1",
+    "clean-tag": "^1.0.4",
+    "lodash": "^4.17.11",
+    "palx": "^1.0.2",
+    "pcln-icons": "^2.0.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-scripts": "^3.0.0",
+    "serve": "^10.0.1",
+    "styled-components": "^4.1.3",
+    "styled-system": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.0.10",
+    "@storybook/addon-info": "^5.0.10",
+    "@storybook/react": "^5.0.10",
+    "@storybook/storybook-deployer": "^2.8.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-styled-components": "^1.10.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "jest": "^23.6.0",
+    "jest-styled-components": "^6.2.0",
+    "prettier": "^1.14.2",
+    "react-test-renderer": "^16.5.1"
+  },
+  "jest": {
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "dist/"
+    ],
+    "setupTestFrameworkScriptFile": "./test-setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datum-consulting-nz/rasatech-design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datum-consulting-nz/rasatech-design-system/issues"
+  },
+  "homepage": "https://datumhq.com",
+  "directories": {
+    "doc": "docs"
+  },
+  "keywords": [
+    "React.js",
+    "Design System"
+  ]
+}

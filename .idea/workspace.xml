@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2aa000db-3bfd-4c96-b6f7-40df797de74d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rasatech-design-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/Absolute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/addons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Absolute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BackgroundImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Badge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BlockLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CloseButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Divider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Flex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FormField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GreenButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Heading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IconButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IconField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InputGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OutlineButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Radio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RatingBadge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RedButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Relative.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThemeProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ToggleBadge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Truncate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Absolute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/BackgroundImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Badge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/BlockLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Box.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/CloseButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Divider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Flag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Flex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/FormField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/GreenButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Heading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Hide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Hug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/IconButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/IconField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/InputGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Label.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/OutlineButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Radio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/RatingBadge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/RedButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Relative.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Stamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/ThemeProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/ToggleBadge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/Truncate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Absolute.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/BackgroundImage.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Badge.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Banner.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/BlockLink.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Box.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Button.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Card.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Checkbox.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/CloseButton.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Container.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Divider.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Flag.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Flex.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/FormField.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/GreenButton.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Heading.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Hide.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Hug.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/IconButton.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/IconField.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Image.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Input.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/InputGroup.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Label.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Link.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/OutlineButton.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Radio.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/RatingBadge.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/RedButton.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Relative.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Select.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Stamp.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Text.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/ThemeProvider.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/ToggleBadge.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Tooltip.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Truncate.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/theme.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__test__/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.storybook/config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="817">
+                  <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.babelrc">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="54">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="463">
+                  <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/ThemeProvider.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fmt</find>
+      <find>storybook</find>
+      <find>.storybook</find>
+      <find>prop</find>
+      <find>config</find>
+      <find>babel</find>
+      <find>dist</find>
+      <find>npm-debug.log</find>
+      <find>injectGlobal</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Absolute.js" />
+        <option value="$PROJECT_DIR$/.storybook/config.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.storybook/addons.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="275" />
+    <option name="y" value="-1417" />
+    <option name="width" value="1699" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rasatech-design-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rasatech-design-system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rasatech-design-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rasatech-design-system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.storybook" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.storybook" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/__test__" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2aa000db-3bfd-4c96-b6f7-40df797de74d" name="Default Changelist" comment="" />
+      <created>1556331772184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556331772184</updated>
+      <workItem from="1556331773384" duration="5188000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5188000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="275" y="-1417" width="1699" height="1417" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12932062" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Avatar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/Text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__test__/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/Box.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/Absolute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/Avatar.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-setup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Absolute.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Flex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThemeProvider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.npmignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.storybook/addons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
