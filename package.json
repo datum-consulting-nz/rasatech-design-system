@@ -1,7 +1,7 @@
 {
-  "name": "@datum-consulting-nz/rasatech-design-system",
-  "version": "0.0.0-0",
-  "description": "Datum Consulting Group's Design System",
+  "name": "rasatech-design-system",
+  "version": "0.0.0-1",
+  "description": "RasaTech's Design System",
   "main": "dist/index.js",
   "scripts": {
     "prepare": "babel src -d dist --ignore __tests__ && yarn run format",
