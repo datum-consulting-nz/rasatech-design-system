@@ -30,12 +30,12 @@ const ThemeProvider = ({ customTheme, customBreakpoints, ...props }) => {
   let theme = customTheme || nextTheme;
   if (customTheme) {
     theme = {
-      ...nextTheme,
+      ...theme,
       breakpoints
     };
   } else {
     theme = {
-      ...nextTheme,
+      ...theme,
       breakpoints
     };
   }

@@ -60,6 +60,7 @@ Text.propTypes = {
 };
 
 Text.defaultProps = {
+  textStyle: "body2",
   theme: theme
 };
 
