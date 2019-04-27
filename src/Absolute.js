@@ -1,6 +1,6 @@
-import styled from 'styled-components'
-import Box from './Box'
-import {top, right, bottom, left, zIndex} from 'styled-system'
+import styled from "styled-components";
+import Box from "./Box";
+import { top, right, bottom, left, zIndex } from "styled-system";
 
 const Absolute = styled(Box)`
   position: absolute;
@@ -9,13 +9,13 @@ const Absolute = styled(Box)`
 `;
 
 Absolute.propTypes = {
-    ...top.propTypes,
-    ...right.propTypes,
-    ...bottom.propTypes,
-    ...left.propTypes,
-    ...zIndex.propTypes
+  ...top.propTypes,
+  ...right.propTypes,
+  ...bottom.propTypes,
+  ...left.propTypes,
+  ...zIndex.propTypes
 };
 
-Absolute.displayName = 'Absolute';
+Absolute.displayName = "Absolute";
 
-export default Absolute
+export default Absolute;

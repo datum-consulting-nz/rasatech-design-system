@@ -1,8 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import { themeGet, space, color } from 'styled-system'
-import theme from './theme'
+import styled from "styled-components";
+import { themeGet, space, color } from "styled-system";
+import theme from "./theme";
 
 const type = props => {
   const badgeColors = {
@@ -42,12 +40,12 @@ const type = props => {
       backgroundColor: props.theme.colors.lightGray,
       color: props.theme.colors.text
     }
-  }
+  };
   return (
     !(props.bg && props.color) &&
     (badgeColors[props.bg] || badgeColors.lightGray)
-  )
-}
+  );
+};
 
 const Badge = styled.div`
   border-radius: 99999px;
@@ -55,21 +53,21 @@ const Badge = styled.div`
   font-size: ${props => props.theme.fontSizes[0]}px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: ${themeGet('letterSpacings.caps')};
+  letter-spacing: ${themeGet("letterSpacings.caps")};
   ${space} ${type} ${color};
-`
+`;
 
-Badge.displayName = 'Badge'
+Badge.displayName = "Badge";
 
 Badge.propTypes = {
   ...space.propTypes,
   ...color.propTypes
-}
+};
 
 Badge.defaultProps = {
   px: 2,
   py: 1,
   theme: theme
-}
+};
 
-export default Badge
+export default Badge;

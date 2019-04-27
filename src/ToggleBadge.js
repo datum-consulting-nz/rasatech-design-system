@@ -1,8 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
-import { themeGet, space, fontSize } from 'styled-system'
-import theme from './theme'
+import PropTypes from "prop-types";
+import styled from "styled-components";
+import { space, fontSize } from "styled-system";
+import theme from "./theme";
 
 const ToggleBadge = styled.button`
   border-radius: ${props => props.theme.radius};
@@ -12,21 +11,21 @@ const ToggleBadge = styled.button`
   font-family: inherit;
   cursor: pointer;
   background-color: ${props =>
-    props.selected ? props.theme.colors[props.bg] : props.unSelectedBg};
+  props.selected ? props.theme.colors[props.bg] : props.unSelectedBg};
   color: ${props => props.theme.colors[props.color]};
   ${space} ${fontSize};
   &:hover {
     background-color: ${props => props.theme.colors[props.bg]};
   }
-`
+`;
 
-ToggleBadge.displayName = 'ToggleBadge'
+ToggleBadge.displayName = "ToggleBadge";
 
 ToggleBadge.propTypes = {
   selected: PropTypes.bool,
   ...space.propTypes,
   ...fontSize.propTypes
-}
+};
 
 ToggleBadge.defaultProps = {
   selected: false,
@@ -36,9 +35,9 @@ ToggleBadge.defaultProps = {
   my: 1,
   fontSize: 0,
   theme: theme,
-  color: 'blue',
-  bg: 'lightBlue',
-  unSelectedBg: 'transparent'
-}
+  color: "blue",
+  bg: "lightBlue",
+  unSelectedBg: "transparent"
+};
 
-export default ToggleBadge
+export default ToggleBadge;

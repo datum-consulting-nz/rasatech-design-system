@@ -1,53 +1,53 @@
-import React from 'react'
-import Box from './Box'
-import Flex from './Flex'
-import Text from './Text'
-import Icon from './Icon'
-import CloseButton from './CloseButton'
-import Heading from './Heading'
-import PropTypes from 'prop-types'
+import React from "react";
+import Box from "./Box";
+import Flex from "./Flex";
+import Text from "./Text";
+import Icon from "./Icon";
+import CloseButton from "./CloseButton";
+import Heading from "./Heading";
+import PropTypes from "prop-types";
 
 const bannerColors = {
   green: {
-    backgroundColor: 'green',
-    color: 'white',
-    icon: 'success'
+    backgroundColor: "green",
+    color: "white",
+    icon: "success"
   },
   lightGreen: {
-    backgroundColor: 'lightGreen',
-    color: 'darkGreen',
-    icon: 'success'
+    backgroundColor: "lightGreen",
+    color: "darkGreen",
+    icon: "success"
   },
   red: {
-    backgroundColor: 'red',
-    color: 'white',
-    icon: 'warning'
+    backgroundColor: "red",
+    color: "white",
+    icon: "warning"
   },
   lightRed: {
-    backgroundColor: 'lightRed',
-    color: 'darkRed',
-    icon: 'warning'
+    backgroundColor: "lightRed",
+    color: "darkRed",
+    icon: "warning"
   },
   orange: {
-    backgroundColor: 'orange',
-    color: 'white',
-    icon: 'attention'
+    backgroundColor: "orange",
+    color: "white",
+    icon: "attention"
   },
   blue: {
-    backgroundColor: 'blue',
-    color: 'white',
-    icon: 'information'
+    backgroundColor: "blue",
+    color: "white",
+    icon: "information"
   },
   lightBlue: {
-    backgroundColor: 'lightBlue',
-    color: 'darkBlue',
-    icon: 'information'
+    backgroundColor: "lightBlue",
+    color: "darkBlue",
+    icon: "information"
   }
-}
+};
 
 const Banner = props => {
-  const bannerColor = bannerColors[props.bg] || {}
-  const icon = props.iconName || bannerColor.icon
+  const bannerColor = bannerColors[props.bg] || {};
+  const icon = props.iconName || bannerColor.icon;
 
   return (
     <Box
@@ -57,7 +57,7 @@ const Banner = props => {
     >
       <Flex justifyContent="space-between" alignItems="flex-start">
         {!!icon && !!props.showIcon && (
-          <Icon name={icon} mr={2} size={24} mt="-2px" />
+          <Icon name={icon} mr={2} size={24} mt="-2px"/>
         )}
         <Box w={1}>
           <Text textAlign={props.textAlign}>
@@ -77,10 +77,10 @@ const Banner = props => {
         )}
       </Flex>
     </Box>
-  )
-}
+  );
+};
 
-Banner.displayName = 'Banner'
+Banner.displayName = "Banner";
 
 Banner.propTypes = {
   header: PropTypes.string,
@@ -89,12 +89,12 @@ Banner.propTypes = {
   showIcon: PropTypes.bool,
   text: PropTypes.node,
   textAlign: PropTypes.string
-}
+};
 
 Banner.defaultProps = {
-  bg: 'green',
-  textAlign: 'left',
+  bg: "green",
+  textAlign: "left",
   showIcon: true
-}
+};
 
-export default Banner
+export default Banner;

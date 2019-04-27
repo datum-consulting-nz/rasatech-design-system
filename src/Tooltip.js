@@ -1,69 +1,68 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Box from './Box'
-import Text from './Text'
+import React from "react";
+import PropTypes from "prop-types";
+import Box from "./Box";
 
-import theme from './theme'
+import theme from "./theme";
 
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const arrowShadow = props => {
   return props.top
     ? {
-        'box-shadow':
-          '-9.66px 9.66px 8px 0 rgba(0,0,0,0.04), -4px 4px 4px 0 rgba(0,0,0,0.08)'
-      }
+      "box-shadow":
+        "-9.66px 9.66px 8px 0 rgba(0,0,0,0.04), -4px 4px 4px 0 rgba(0,0,0,0.08)"
+    }
     : {
-        'box-shadow':
-          '-1.41px 1.41px 1px 0 rgba(0,0,0,0.01), -3.66px 3.66px 8px 0 rgba(0,0,0,0.04)'
-      }
-}
+      "box-shadow":
+        "-1.41px 1.41px 1px 0 rgba(0,0,0,0.01), -3.66px 3.66px 8px 0 rgba(0,0,0,0.04)"
+    };
+};
 
 const arrowAlign = props => {
   return props.left
-    ? { left: '16px', 'margin-left': props.top ? 0 : '15px' }
+    ? { left: "16px", "margin-left": props.top ? 0 : "15px" }
     : props.center
-    ? { left: '50%', 'margin-left': props.top ? '-7px' : '7px' }
-    : { right: '16px', 'margin-right': props.top ? '5px' : '-10px' }
-}
+      ? { left: "50%", "margin-left": props.top ? "-7px" : "7px" }
+      : { right: "16px", "margin-right": props.top ? "5px" : "-10px" };
+};
 
 const arrowPosition = props => {
   return props.top
     ? {
-        'transform-origin': '0 0',
-        transform: 'rotate(-45deg)',
-        bottom: '-10px'
-      }
+      "transform-origin": "0 0",
+      transform: "rotate(-45deg)",
+      bottom: "-10px"
+    }
     : {
-        'transform-origin': '0 0',
-        transform: 'rotate(-225deg)',
-        top: '0'
-      }
-}
+      "transform-origin": "0 0",
+      transform: "rotate(-225deg)",
+      top: "0"
+    };
+};
 
 const arrow = props => {
   return props.top
     ? {
-        'transform-origin': '0 0',
-        transform: 'rotate(-45deg)'
-      }
+      "transform-origin": "0 0",
+      transform: "rotate(-45deg)"
+    }
     : {
-        'transform-origin': '0 0',
-        transform: 'rotate(-225deg)'
-      }
-}
+      "transform-origin": "0 0",
+      transform: "rotate(-225deg)"
+    };
+};
 
 const tooltipPosition = props => {
-  return props.top ? { bottom: '-8px' } : { top: 0 }
-}
+  return props.top ? { bottom: "-8px" } : { top: 0 };
+};
 
 const tooltipAlign = props => {
   return props.right
     ? { right: 0 }
     : props.center
-    ? { left: '50%', width: 'auto', transform: 'translateX(-50%)' }
-    : null
-}
+      ? { left: "50%", width: "auto", transform: "translateX(-50%)" }
+      : null;
+};
 
 const TooltipContent = styled(Box)`
   display: inline;
@@ -87,7 +86,7 @@ const TooltipContent = styled(Box)`
 
     ${arrow} ${arrowPosition} ${arrowAlign} ${arrowShadow};
   }
-`
+`;
 
 const propTypes = {
   children: PropTypes.any.isRequired,
@@ -99,27 +98,27 @@ const propTypes = {
   left: PropTypes.bool,
   right: PropTypes.bool,
   zIndex: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
-}
+};
 
 const defaultProps = {
-  position: 'bottom',
-  color: 'text',
-  bg: 'white',
+  position: "bottom",
+  color: "text",
+  bg: "white",
   theme: theme,
-  zIndex: 'auto'
-}
+  zIndex: "auto"
+};
 
 const Tooltip = ({ children, align, ...props }) => {
   return (
-    <div style={{ position: 'relative', zIndex: props.zIndex }}>
+    <div style={{ position: "relative", zIndex: props.zIndex }}>
       <TooltipContent p={2} mb={3} mt={2} {...props}>
         {children}
       </TooltipContent>
     </div>
-  )
-}
+  );
+};
 
-Tooltip.propTypes = propTypes
-Tooltip.defaultProps = defaultProps
+Tooltip.propTypes = propTypes;
+Tooltip.defaultProps = defaultProps;
 
-export default Tooltip
+export default Tooltip;

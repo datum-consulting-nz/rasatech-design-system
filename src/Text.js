@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import PropTypes from 'prop-types'
+import styled from "styled-components";
+import PropTypes from "prop-types";
 import {
   textStyle,
   fontSize,
@@ -9,23 +9,23 @@ import {
   space,
   color,
   themeGet
-} from 'styled-system'
-import theme from './theme'
-import { mapProps, deprecatedPropType } from './utils'
+} from "styled-system";
+import theme from "./theme";
+import { mapProps, deprecatedPropType } from "./utils";
 
 export const caps = props =>
   props.caps
     ? {
-        textTransform: 'uppercase',
-        letterSpacing: themeGet('letterSpacings.caps')(props)
-      }
-    : null
+      textTransform: "uppercase",
+      letterSpacing: themeGet("letterSpacings.caps")(props)
+    }
+    : null;
 
 export const regular = props =>
-  props.regular ? { fontWeight: props.theme.regular } : null
+  props.regular ? { fontWeight: props.theme.regular } : null;
 
 export const bold = props =>
-  props.bold ? { fontWeight: props.theme.bold } : null
+  props.bold ? { fontWeight: props.theme.bold } : null;
 
 const Text = mapProps(({ align, ...props }) => ({
   textAlign: align,
@@ -41,9 +41,9 @@ const Text = mapProps(({ align, ...props }) => ({
   ${caps}
   ${regular}
   ${bold}
-`)
+`);
 
-Text.displayName = 'Text'
+Text.displayName = "Text";
 
 Text.propTypes = {
   ...textStyle.propTypes,
@@ -56,15 +56,15 @@ Text.propTypes = {
   caps: PropTypes.bool,
   regular: PropTypes.bool,
   bold: PropTypes.bool,
-  align: deprecatedPropType('textAlign')
-}
+  align: deprecatedPropType("textAlign")
+};
 
 Text.defaultProps = {
   theme: theme
-}
+};
 
-Text.span = Text.withComponent('span')
-Text.p = Text.withComponent('p')
-Text.s = Text.withComponent('s')
+Text.span = Text.withComponent("span");
+Text.p = Text.withComponent("p");
+Text.s = Text.withComponent("s");
 
-export default Text
+export default Text;

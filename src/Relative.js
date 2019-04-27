@@ -1,12 +1,12 @@
-import styled from 'styled-components'
-import Box from './Box'
-import { top, right, bottom, left, zIndex } from 'styled-system'
+import styled from "styled-components";
+import Box from "./Box";
+import { top, right, bottom, left, zIndex } from "styled-system";
 
 const Relative = styled(Box)`
   position: relative;
   ${top} ${bottom} ${left} ${right}
   ${zIndex}
-`
+`;
 
 Relative.propTypes = {
   ...top.propTypes,
@@ -14,8 +14,8 @@ Relative.propTypes = {
   ...bottom.propTypes,
   ...left.propTypes,
   ...zIndex.propTypes
-}
+};
 
-Relative.displayName = 'Relative'
+Relative.displayName = "Relative";
 
-export default Relative
+export default Relative;

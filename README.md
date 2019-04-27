@@ -18,3 +18,5 @@ Follow these steps:
 * before pull request or during your work `git checkout master` then `git pull` to get the latest update to your work
 * go back to your the branch you are working on `git checkout new-feature-XXX` then `git push` to push the lastest commits you have to Github
 * make a new pull request in Github
+
+## 
