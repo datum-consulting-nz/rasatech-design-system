@@ -1,9 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled, { ThemeProvider as StyledThemeProvider, createGlobalStyle } from "styled-components";
+import styled, { ThemeProvider as StyledThemeProvider } from "styled-components";
 import nextTheme from "./theme";
 
 export const Base = styled.div`
+  color: ${props => props.theme.brandColors.text};
   font-family: ${props => props.theme.font};
   line-height: ${props => props.theme.lineHeights.standard};
   font-weight: ${props => props.theme.fontWeights.medium};
@@ -20,9 +21,6 @@ export const Base = styled.div`
   * {
     box-sizing: border-box;
   }
-`;
-
-const GlobalStyle = createGlobalStyle`
 `;
 
 const ThemeProvider = ({ customTheme, customBreakpoints, ...props }) => {
@@ -50,7 +48,7 @@ const ThemeProvider = ({ customTheme, customBreakpoints, ...props }) => {
 
 ThemeProvider.propTypes = {
   theme: PropTypes.object,
-  customBreakpoints: PropTypes.arrayOf(PropTypes.number)
+  customBreakpoints: PropTypes.arrayOf(PropTypes.string)
 };
 
 ThemeProvider.defaultProps = {

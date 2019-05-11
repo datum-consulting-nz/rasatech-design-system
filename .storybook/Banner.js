@@ -598,14 +598,14 @@ storiesOf('Banner', module)
   ))
   .add('With custom icons and sizes', () => (
     <Box>
-      <Banner textAlign="right" mb={2} p={2} text="default" iconName="star" />
+      <Banner textAlign="right" mb={2} p={2} text="default" iconName="Star" />
       <Banner
         textAlign="left"
         mb={2}
         p={2}
         text="blue"
         bg="blue"
-        iconName="star"
+        iconName="Star"
       />
       <Banner
         textAlign="right"
@@ -613,7 +613,7 @@ storiesOf('Banner', module)
         p={2}
         text="green"
         bg="green"
-        iconName="star"
+        iconName="Star"
       />
       <Banner
         textAlign="left"
@@ -621,7 +621,7 @@ storiesOf('Banner', module)
         p={2}
         text="orange"
         bg="orange"
-        iconName="star"
+        iconName="Star"
       />
       <Banner
         textAlign="right"
@@ -629,7 +629,7 @@ storiesOf('Banner', module)
         p={2}
         text="red"
         bg="red"
-        iconName="star"
+        iconName="Star"
       />
       <Banner
         textAlign="left"
@@ -637,7 +637,7 @@ storiesOf('Banner', module)
         p={2}
         text="blue"
         bg="lightBlue"
-        iconName="star"
+        iconName="Star"
       />
       <Banner
         textAlign="right"
@@ -645,7 +645,7 @@ storiesOf('Banner', module)
         p={2}
         text="green"
         bg="lightGreen"
-        iconName="star"
+        iconName="Star"
       />
       <Banner
         textAlign="right"
@@ -653,7 +653,7 @@ storiesOf('Banner', module)
         p={2}
         text="red"
         bg="lightRed"
-        iconName="star"
+        iconName="Star"
       />
     </Box>
   ))

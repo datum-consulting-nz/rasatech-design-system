@@ -1,36 +1,66 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { Box, Flex, Text, theme } from '../src';
+import styled from 'styled-components';
+import {
+  Box,
+  Flex,
+  Text,
+  Heading,
+  theme,
+  extendedSpectrumColors
+} from '../src';
 
-const blacklist = ['darkPurple'];
+const getKeys = function(colorObject) {
+  let keys = Object.keys(colorObject).filter(
+    key => !Array.isArray(colorObject[key])
+  );
+  return keys.map(key => ({ key, value: colorObject[key] }));
+};
 
-const keys = Object.keys(theme.colors).filter(key => !blacklist.includes(key));
+const Chip = props => <Box w={1} p={3} {...props} />;
 
-const next = keys.map(key => ({ key, value: theme.colors[key] }));
+const Pre = styled(Text.withComponent('pre'))`
+  font-family: ${theme.monoFont};
+`;
 
-const Chip = props => <Box width={1} px={5} py={4} bg={props.color} />;
-
-const Pre = Text.withComponent('pre');
-
-const Card = props => (
+const Card = ({ name, color }) => (
   <Box>
-    <Chip name={props.name} color={props.color} />
-    <Text f={0}>{props.name}</Text>
-    <Pre m={0}>{props.color}</Pre>
+    <Chip name={name} bg={color} />
+    <Text fontSize={3} m={0} bold>
+      {name}
+    </Text>
+    <Pre fontSize={2} m={0} color="muted">
+      {color}
+    </Pre>
   </Box>
 );
 
-storiesOf('Color', module).add('Palette', () => (
-  <div>
-    <Box p={3}>
-      <h1>Color Palette</h1>
-    </Box>
-    <Flex wrap>
-      {next.map(color => (
-        <Box key={color.key} p={3} width={[1, 1 / 2, 1 / 3, 1 / 4, 1 / 5]}>
-          <Card name={color.key} color={color.value} />
-        </Box>
-      ))}
+const WholePalette = ({ name, list }) => (
+  <>
+    <Heading.h1 p={3} f={[4, 5]}>
+      {name}
+    </Heading.h1>
+    <Flex flexWrap={'wrap'}>
+      {getKeys(list).map(color =>
+        !color.key[color.key.length - 1].match(/^\d+$/) ? (
+          <Box key={color.key} p={3} width={[1 / 2, 1 / 3, 1 / 4, 1 / 5]}>
+            <Card name={color.key} color={color.value} />
+          </Box>
+        ) : null
+      )}
     </Flex>
+  </>
+);
+
+storiesOf('Color', module).add('All colors', () => (
+  <div>
+    <WholePalette name={'Brand'} list={theme.brandColors} />
+    <WholePalette name={'Gray'} list={theme.grayColors} />
+    <WholePalette name={'Full spectrum'} list={theme.spectrumColors} />
+    <WholePalette
+      name={'Extended spectrum'}
+      list={theme.extendedSpectrumColors}
+    />
+    <WholePalette name={'All'} list={theme.colors} />
   </div>
 ));

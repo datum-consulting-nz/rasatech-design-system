@@ -1,3 +1,5 @@
+import palx from "palx";
+
 const createMediaQuery = n => `@media screen and (min-width:${n})`;
 
 const addAliases = (arr, aliases) =>
@@ -23,6 +25,7 @@ export const space = [0, 4, 8, 16, 32, 64, 128];
 
 export const font = `'Source Sans Pro',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif`;
 export const headingFont = `Roboto,'Source Sans Pro', 'Helvetica Neue',Helvetica,Arial,sans-serif`;
+export const monoFont = "SFMono-Regular,\"Roboto Mono\",Menlo,monospace";
 
 export const fontSizes = [12, 14, 16, 20, 24, 32, 40, 56, 72];
 
@@ -114,65 +117,76 @@ export const textStyles = {
   }
 };
 
-// color palette
-const black = "#000";
-const white = "#fff";
-const text = "#001833";
-const lightBlue = "#e8f2ff";
-const blue = "#007aff";
-const darkBlue = "#049";
-const lightGray = "#f4f6f8";
-const buttonGray = "#edf0f3";
-const borderGray = "#c0cad5";
-const gray = "#4f6f8f";
-const darkGray = "#364049";
-const lightGreen = "#ecf7ec";
-const green = "#0a0";
-const darkGreen = "#060";
-const lightRed = "#fbebeb";
-const red = "#c00";
-const darkRed = "#800";
-const orange = "#f68013";
-const darkOrange = "#f06f20";
-const lightOrange = "#fef2e7";
-const lightPurple = "#f5ebfa";
-const purple = "#70b";
-const yellow = "#fedc2a";
-const lightYellow = "#fff3c0";
-const pink = "#fe3e81";
+const seedColor = "#FE1717";
+export const palette = palx(seedColor);
 
-// deprecated aliases
-const darkPurple = purple;
+export const brandColors = {
+  primary: "#4F944D",
+  lightPrimary: "#7BB45F",
+  darkPrimary: "#23733B",
+  accent: palette.red[5],
+  lightAccent: palette.red[4],
+  darkAccent: palette.red[8],
+  background: "#EDF2E7",
+  backgroundDark: "#304549",
+  text: "#131e1a"
+};
+
+export const grayColors = {
+  white: "#FFF",
+  lightGray: "#EDF2E7",
+  buttonGray: "#BEC7C0",
+  borderGray: "#8F9C98",
+  gray: "#5F7071",
+  darkGray: "#304549",
+  black: "#000",
+};
+
+export const spectrumColors = {
+  red: palette.red[5],
+  orange: palette.orange[5],
+  yellow: palette.yellow[5],
+  lime: palette.lime[5],
+  green: palette.green[5],
+  teal: palette.teal[5],
+  cyan: palette.cyan[5],
+  blue: palette.blue[5],
+  indigo: palette.indigo[5],
+  violet: palette.violet[5],
+  fuschia: palette.fuschia[5],
+  pink: palette.pink[5]
+};
+
+export const extendedSpectrumColors = {
+  lightRed: palette.red[4],
+  darkRed: palette.red[7],
+  lightOrange: palette.orange[4],
+  darkOrange: palette.orange[7],
+  lightLime: palette.lime[4],
+  darkLime: palette.lime[7],
+  lightGreen: palette.green[4],
+  darkGreen: palette.green[7],
+  lightTeal: palette.teal[4],
+  darkTeal: palette.teal[7],
+  lightCyan: palette.cyan[4],
+  darkCyan: palette.cyan[7],
+  lightBlue: palette.blue[4],
+  darkBlue: palette.blue[7],
+  lightIndigo: palette.indigo[4],
+  darkIndigo: palette.indigo[7],
+  lightViolet: palette.violet[4],
+  darkViolet: palette.violet[7],
+  lightFuschia: palette.fuschia[4],
+  darkFuschia: palette.fuschia[7],
+  lightPink: palette.pink[4],
+  darkPink: palette.pink[7]
+};
 
 const colors = {
-  black,
-  white,
-  text,
-  blue,
-  lightBlue,
-  darkBlue,
-  gray,
-  lightGray,
-  buttonGray,
-  borderGray,
-  darkGray,
-  green,
-  lightGreen,
-  darkGreen,
-  red,
-  lightRed,
-  darkRed,
-  orange,
-  darkOrange,
-  lightOrange,
-  purple,
-  lightPurple,
-  yellow,
-  lightYellow,
-  pink,
-
-  // deprecated
-  darkPurple
+  ...brandColors,
+  ...grayColors,
+  ...spectrumColors,
+  ...extendedSpectrumColors
 };
 
 export { colors };
@@ -308,6 +322,7 @@ const theme = {
   space,
   font,
   headingFont,
+  monoFont,
   fontSizes,
   fontWeights,
   lineHeights,
@@ -315,6 +330,10 @@ const theme = {
   regular,
   bold,
   textStyles,
+  brandColors,
+  spectrumColors,
+  extendedSpectrumColors,
+  grayColors,
   colors,
   colorStyles,
   radii,

@@ -34,7 +34,7 @@ storiesOf('Flex', module)
     </Flex>
   ))
   .add('deprecated align shim', () => (
-    <Flex align="center">
+    <Flex alignItems="center">
       <Box width={1 / 2} p={3} color="white" bg="blue">
         Flex
       </Box>

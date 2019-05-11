@@ -11,37 +11,37 @@ const bannerColors = {
   green: {
     backgroundColor: "green",
     color: "white",
-    icon: "success"
+    icon: "Success"
   },
   lightGreen: {
     backgroundColor: "lightGreen",
     color: "darkGreen",
-    icon: "success"
+    icon: "Success"
   },
   red: {
     backgroundColor: "red",
     color: "white",
-    icon: "warning"
+    icon: "Warning"
   },
   lightRed: {
     backgroundColor: "lightRed",
     color: "darkRed",
-    icon: "warning"
+    icon: "Warning"
   },
   orange: {
     backgroundColor: "orange",
     color: "white",
-    icon: "attention"
+    icon: "Attention"
   },
   blue: {
     backgroundColor: "blue",
     color: "white",
-    icon: "information"
+    icon: "Information"
   },
   lightBlue: {
     backgroundColor: "lightBlue",
     color: "darkBlue",
-    icon: "information"
+    icon: "Information"
   }
 };
 
