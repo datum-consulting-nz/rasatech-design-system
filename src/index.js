@@ -38,6 +38,11 @@ export { default as ToggleBadge } from "./ToggleBadge";
 export { default as Truncate } from "./Truncate";
 export { default as Checkbox } from "./Checkbox";
 
+export { default as Modal } from './Modal'
+export { default as SmallModalHeader } from './SmallModalHeader'
+export { default as ModalHeader } from './ModalHeader'
+export { default as ScrollLock } from './ScrollLock'
+
 export { default as theme } from "./theme";
 export { default as ThemeProvider } from "./ThemeProvider";
 

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import { Box, Input, Label, theme } from '../src';
 
-storiesOf('Input', module)
+storiesOf('Input.test.js', module)
   .add(
     'Input component',
     withInfo({
