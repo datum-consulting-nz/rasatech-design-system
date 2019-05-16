@@ -33,18 +33,18 @@ describe('Modal', () => {
     expect(queryByText('Content')).toBeFalsy();
   });
   test('renders when open', () => {
-    const { getByText, container } = rerender(
+    const { queryAllByText, container } = rerender(
       <ThemeProvider>
         <Modal width={['100px', '200px', '500px']} isOpen>
           <div data-content>Content</div>
         </Modal>
       </ThemeProvider>
     );
-    expect(getByText('Content')).toBeTruthy();
+    expect(queryAllByText('Content')).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
   test('renders when enable overflow and disable close button', () => {
-    const { getByText, getByTestId, container } = rerender(
+    const { queryAllByText, getByTestId, container } = rerender(
       <ThemeProvider>
         <Modal
           width={['100px', '200px', '500px']}
@@ -56,12 +56,12 @@ describe('Modal', () => {
         </Modal>
       </ThemeProvider>
     );
-    expect(getByText('Content')).toBeTruthy();
+    expect(queryAllByText('Content')).toBeTruthy();
     expect(getByTestId('pcln-modal-close')).toBeTruthy();
     expect(container.firstChild).toMatchSnapshot();
   });
   test('renders when enable header close button', () => {
-    const { getByText } = rerender(
+    const { queryAllByText } = rerender(
       <ThemeProvider>
         <Modal
           width={['100px', '200px', '500px']}
@@ -72,6 +72,6 @@ describe('Modal', () => {
         </Modal>
       </ThemeProvider>
     );
-    expect(getByText('header')).toBeTruthy();
+    expect(queryAllByText('header')).toBeTruthy();
   });
 });

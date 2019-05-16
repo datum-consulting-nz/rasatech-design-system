@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeProvider Base component includes a font 1`] = `
+.c0 {
+  color: #131e1a;
+  font-family: 'Source Sans Pro',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4,
+.c0 h5,
+.c0 h6 {
+  font-family: Roboto,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ThemeProvider accepts a custom breakpoints prop 1`] = `
+.c1 {
+  width: 100%;
+}
+
+.c0 {
+  color: #131e1a;
+  font-family: 'Source Sans Pro',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4,
+.c0 h5,
+.c0 h6 {
+  font-family: Roboto,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:20em) {
+  .c1 {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:32em) {
+  .c1 {
+    width: 25%;
+  }
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    width={
+      Array [
+        1,
+        0.5,
+        0.25,
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`ThemeProvider renders 1`] = `
+.c0 {
+  color: #131e1a;
+  font-family: 'Source Sans Pro',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4,
+.c0 h5,
+.c0 h6 {
+  font-family: Roboto,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`ThemeProvider renders with legacy prop 1`] = `
+.c0 {
+  color: #131e1a;
+  font-family: 'Source Sans Pro',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4,
+.c0 h5,
+.c0 h6 {
+  font-family: Roboto,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+<div
+  className="c0"
+/>
+`;

@@ -32,11 +32,11 @@
     "styled-system": "^4.1.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.3.3",
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
     "@babel/plugin-proposal-class-properties": "^7.3.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
-    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^5.0.10",
@@ -44,16 +44,19 @@
     "@storybook/addon-viewport": "^5.0.11",
     "@storybook/react": "^5.0.10",
     "@storybook/storybook-deployer": "^2.8.1",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.4.2",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.0",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
-    "jest": "^23.6.0",
+    "jest": "^24.8.0",
+    "jest-enzyme": "^7.0.2",
     "jest-styled-components": "^6.2.0",
     "prettier": "^1.14.2",
     "react-test-renderer": "^16.5.1",
-    "react-testing-library": "^7.0.0"
+    "react-testing-library": "^7.0.0",
+    "regenerator-runtime": "^0.13.2"
   },
   "jest": {
     "coverageThreshold": {
@@ -73,9 +76,7 @@
       "dist",
       "/node_modules/"
     ],
-    "setupFiles": [
-      "./test-setup.js"
-    ]
+    "setupFilesAfterEnv": ["./test-setup.js"]
   },
   "lint-staged": {
     "*.{js,md}": [

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders when enable overflow and disable close button 1`] = `
+.c0 {
+  color: #131e1a;
+  font-family: 'Source Sans Pro',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4,
+.c0 h5,
+.c0 h6 {
+  font-family: Roboto,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c0"
+  />
+</div>
+`;
+
+exports[`Modal renders when open 1`] = `
+.c0 {
+  color: #131e1a;
+  font-family: 'Source Sans Pro',Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.c0 h1,
+.c0 h2,
+.c0 h3,
+.c0 h4,
+.c0 h5,
+.c0 h6 {
+  font-family: Roboto,'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.c0 * {
+  box-sizing: border-box;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c0"
+  />
+</div>
+`;

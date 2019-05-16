@@ -37,10 +37,4 @@ describe('Stamp', () => {
     expect(json).toMatchSnapshot();
     expect(json).toHaveStyleRule('color', theme.colors.orange);
   });
-
-  test('color purple sets text and icon color', () => {
-    const json = renderer.create(<Stamp color="purple" />).toJSON();
-    expect(json).toMatchSnapshot();
-    expect(json).toHaveStyleRule('color', theme.colors.purple);
-  });
 });
