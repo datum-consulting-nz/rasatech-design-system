@@ -1,6 +1,6 @@
 {
   "name": "rasatech-design-system",
-  "version": "0.0.0-3",
+  "version": "0.0.0-4",
   "description": "RasaTech's Design System",
   "main": "dist/index.js",
   "scripts": {

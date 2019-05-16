@@ -1,14 +1,14 @@
-import React from "react";
-import TestRenderer from "react-test-renderer";
-import us from "us";
-import { Autocomplete } from "../";
+import React from 'react';
+import TestRenderer from 'react-test-renderer';
+import us from 'us';
+import { Autocomplete } from '../';
 
-describe("Autocomplete", () => {
-  test("renders", () => {
+describe('Autocomplete', () => {
+  test('renders', () => {
     const json = TestRenderer.create(
       <Autocomplete>
         <Autocomplete.Label>Test</Autocomplete.Label>
-        <Autocomplete.Input/>
+        <Autocomplete.Input />
         <Autocomplete.Menu>
           {us.STATES.map(state => (
             <Autocomplete.Item
@@ -23,7 +23,7 @@ describe("Autocomplete", () => {
     expect(json).toMatchSnapshot();
   });
 
-  test("renders open", () => {
+  test('renders open', () => {
     const json = TestRenderer.create(
       <Autocomplete defaultIsOpen={true}>
         <Autocomplete.Menu>
@@ -41,7 +41,7 @@ describe("Autocomplete", () => {
     expect(menu.children.length > 0).toBe(true);
   });
 
-  test("renders with highlightedIndex", () => {
+  test('renders with highlightedIndex', () => {
     const json = TestRenderer.create(
       <Autocomplete defaultIsOpen={true} defaultHighlightedIndex={0}>
         <Autocomplete.Menu>
@@ -57,6 +57,6 @@ describe("Autocomplete", () => {
     ).toJSON();
     const [menu] = json.children;
     const [firstItem] = menu.children;
-    expect(firstItem.props["data-highlighted"]).toBe(true);
+    expect(firstItem.props['data-highlighted']).toBe(true);
   });
 });

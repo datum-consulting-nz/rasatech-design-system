@@ -2,40 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa000db-3bfd-4c96-b6f7-40df797de74d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.storybook/Autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__test__/Autocomplete.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/Autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/Autocomplete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Badge.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Badge.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Banner.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Banner.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/BlockLink.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/BlockLink.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Box.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Box.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Button.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Button.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Checkbox.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Checkbox.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/CloseButton.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/CloseButton.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Divider.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Divider.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Flag.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Flag.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/FormField.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/FormField.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/GreenButton.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/GreenButton.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Headers.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Headers.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Hug.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Hug.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/IconButton.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/IconButton.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/IconField.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/IconField.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Input.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Input.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Link.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Link.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/OutlineButton.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/OutlineButton.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Radio.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Radio.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/RatingBadge.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/RatingBadge.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/RedButton.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/RedButton.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Select.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Select.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Stamp.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Stamp.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/ToggleBadge.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/ToggleBadge.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/Tooltip.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/Tooltip.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__test__/__snapshots__/theme.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/__snapshots__/theme.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__test__/Autocomplete.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/__test__/Autocomplete.test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +19,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="463">
-                  <caret line="42" column="18" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="18" />
+                <state relative-caret-position="684">
+                  <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -62,17 +31,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.babelrc">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="11" selection-start-line="11" selection-end-line="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/package-lock.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="36">
-                  <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+                <state>
+                  <caret column="1" selection-start-column="1" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -224,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/__test__/Button.test.js" />
         <option value="$PROJECT_DIR$/src/__test__/ToggleBadge.test.js" />
         <option value="$PROJECT_DIR$/test-setup.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/__test__/Relative.test.js" />
         <option value="$PROJECT_DIR$/src/__test__/Absolute.test.js" />
         <option value="$PROJECT_DIR$/src/__test__/Card.test.js" />
@@ -241,6 +200,7 @@
         <option value="$PROJECT_DIR$/.storybook/Autocomplete.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/package-lock.json" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -309,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.test">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -352,9 +312,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.test" />
         <item itemvalue="npm.format" />
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.prepare" />
       </list>
     </recent_temporary>
@@ -374,13 +334,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39285000" />
+    <option name="totallyTimeSpent" value="40440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="353" y="-1417" width="1621" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.144375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.144375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32949308" />
@@ -834,24 +794,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="1764">
+          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="684">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
         </state>
       </provider>
     </entry>

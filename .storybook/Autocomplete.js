@@ -1,16 +1,16 @@
-import React from "react";
-import { storiesOf } from "@storybook/react";
-import { Box, Text, Icon } from "../src";
-import catNames from "cat-names";
-import Component from "@reach/component-component";
-import { Autocomplete, LabelAuto, InputAuto, MenuAuto, ItemAuto } from "../src";
+import React from 'react';
+import { storiesOf } from '@storybook/react';
+import { Box, Text, Icon } from '../src';
+import catNames from 'cat-names';
+import Component from '@reach/component-component';
+import { Autocomplete, LabelAuto, InputAuto, MenuAuto, ItemAuto } from '../src';
 
 const cats = catNames.all;
 const match = (item, value) => item.includes(value);
 
-storiesOf("Autocomplete", module).add("default", () => (
+storiesOf('Autocomplete', module).add('default', () => (
   <Component
-    initialState={{ value: "" }}
+    initialState={{ value: '' }}
     children={({ state, setState }) => (
       <Box>
         <Autocomplete
@@ -20,11 +20,11 @@ storiesOf("Autocomplete", module).add("default", () => (
           match={match}
         >
           <LabelAuto mb={1}>Cat</LabelAuto>
-          <InputAuto/>
+          <InputAuto />
           <MenuAuto>
             {cats.map(cat => (
               <ItemAuto key={cat} item={cat}>
-                <Icon name="Pin" color="blue" mr={2}/>
+                <Icon name="Pin" color="blue" mr={2} />
                 <Text fontSize={0}>{cat}</Text>
               </ItemAuto>
             ))}
