@@ -14,7 +14,7 @@ exports[`Hug renders with border-radius from theme on top only 1`] = `
   display: flex;
   padding: 8px;
   color: #FFF;
-  background-color: #17fe17;
+  background-color: #13cf13;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -29,7 +29,7 @@ exports[`Hug renders with border-radius from theme on top only 1`] = `
 }
 
 .c0 {
-  border: 1px solid #17fe17;
+  border: 1px solid #13cf13;
   border-radius: 2px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;

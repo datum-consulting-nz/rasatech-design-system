@@ -322,14 +322,14 @@ exports[`Tooltip top left 1`] = `
   margin-bottom: 16px;
   padding: 8px;
   color: #FFF;
-  background-color: #178afe;
+  background-color: #72b8fe;
   display: inline;
   box-shadow: 0 0 2px 0 rgba(0,0,0,.08),0 2px 8px 0 rgba(0,0,0,.16);
   font-size: 12px;
   position: absolute;
   border-radius: 2px;
   box-sizing: border-box;
-  background: #178afe;
+  background: #72b8fe;
   text-align: center;
   bottom: -8px;
 }
@@ -341,7 +341,7 @@ exports[`Tooltip top left 1`] = `
   height: 0;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #178afe #178afe;
+  border-color: transparent transparent #72b8fe #72b8fe;
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;
@@ -383,14 +383,14 @@ exports[`Tooltip top right 1`] = `
   margin-bottom: 16px;
   padding: 8px;
   color: #FFF;
-  background-color: #fe1717;
+  background-color: #ff9595;
   display: inline;
   box-shadow: 0 0 2px 0 rgba(0,0,0,.08),0 2px 8px 0 rgba(0,0,0,.16);
   font-size: 12px;
   position: absolute;
   border-radius: 2px;
   box-sizing: border-box;
-  background: #fe1717;
+  background: #ff9595;
   text-align: center;
   bottom: -8px;
   right: 0;
@@ -403,7 +403,7 @@ exports[`Tooltip top right 1`] = `
   height: 0;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent #fe1717 #fe1717;
+  border-color: transparent transparent #ff9595 #ff9595;
   -webkit-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
   transform-origin: 0 0;

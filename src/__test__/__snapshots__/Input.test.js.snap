@@ -46,8 +46,8 @@ exports[`Input.test.js it renders 1`] = `
 
 .c0:focus {
   outline: 0;
-  border-color: #178afe;
-  box-shadow: 0 0 0 2px #178afe;
+  border-color: #72b8fe;
+  box-shadow: 0 0 0 2px #72b8fe;
 }
 
 <input
@@ -104,8 +104,8 @@ exports[`Input.test.js it renders an input element with a really large padding a
 
 .c0:focus {
   outline: 0;
-  border-color: #178afe;
-  box-shadow: 0 0 0 2px #178afe;
+  border-color: #72b8fe;
+  box-shadow: 0 0 0 2px #72b8fe;
 }
 
 <input
@@ -134,8 +134,8 @@ exports[`Input.test.js it renders an input element with a red border with a colo
   padding-left: 12px;
   padding-right: 12px;
   margin: 0;
-  border-color: #fe1717;
-  box-shadow: 0 0 0 1px #fe1717;
+  border-color: #ff9595;
+  box-shadow: 0 0 0 1px #ff9595;
 }
 
 .c0::-webkit-input-placeholder {
@@ -160,8 +160,8 @@ exports[`Input.test.js it renders an input element with a red border with a colo
 
 .c0:focus {
   outline: 0;
-  border-color: #fe1717;
-  box-shadow: 0 0 0 2px #fe1717;
+  border-color: #ff9595;
+  box-shadow: 0 0 0 2px #ff9595;
 }
 
 <input
@@ -217,8 +217,8 @@ exports[`Input.test.js it renders an input element with large text 1`] = `
 
 .c0:focus {
   outline: 0;
-  border-color: #178afe;
-  box-shadow: 0 0 0 2px #178afe;
+  border-color: #72b8fe;
+  box-shadow: 0 0 0 2px #72b8fe;
 }
 
 <input

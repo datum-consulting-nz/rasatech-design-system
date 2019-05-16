@@ -48,8 +48,8 @@ exports[`Select renders 1`] = `
 
 .c1:focus {
   outline: none;
-  border-color: #178afe;
-  box-shadow: 0 0 0 1px #178afe;
+  border-color: #72b8fe;
+  box-shadow: 0 0 0 1px #72b8fe;
 }
 
 <div

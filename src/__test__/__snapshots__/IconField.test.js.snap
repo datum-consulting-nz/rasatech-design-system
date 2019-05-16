@@ -59,8 +59,8 @@ exports[`IconField renders 1`] = `
 
 .c2:focus {
   outline: 0;
-  border-color: #178afe;
-  box-shadow: 0 0 0 2px #178afe;
+  border-color: #72b8fe;
+  box-shadow: 0 0 0 2px #72b8fe;
 }
 
 <div

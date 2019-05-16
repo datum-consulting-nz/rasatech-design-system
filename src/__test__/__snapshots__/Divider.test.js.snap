@@ -7,7 +7,7 @@ exports[`Divider borderColor prop sets borderColor 1`] = `
   border-bottom-width: 1px;
   margin-left: 0;
   margin-right: 0;
-  border-color: #178afe;
+  border-color: #72b8fe;
 }
 
 <hr

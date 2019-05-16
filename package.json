@@ -20,6 +20,7 @@
     "@reach/component-component": "latest",
     "@reach/dialog": "^0.2.8",
     "clean-tag": "^3.1.1",
+    "downshift": "^3.2.10",
     "lodash": "^4.17.11",
     "palx": "^1.0.3",
     "pcln-icons": "^2.0.4",
@@ -50,6 +51,7 @@
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
     "babel-plugin-styled-components": "^1.10.0",
+    "cat-names": "^3.0.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.13.0",
     "jest": "^24.8.0",
@@ -58,7 +60,8 @@
     "prettier": "^1.17.1",
     "react-test-renderer": "^16.8.6",
     "react-testing-library": "^7.0.0",
-    "regenerator-runtime": "^0.13.2"
+    "regenerator-runtime": "^0.13.2",
+    "us": "^2.0.0"
   },
   "jest": {
     "coverageThreshold": {

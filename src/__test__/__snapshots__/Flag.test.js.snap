@@ -13,13 +13,13 @@ exports[`Flag renders 1`] = `
   margin-bottom: -8px;
   margin-right: -8px;
   width: 4px;
-  color: #17fe17;
+  color: #13cf13;
   width: 8px;
   height: 8px;
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background-image: linear-gradient(45deg,transparent 50%,#12cb12 50%);
+  background-image: linear-gradient(45deg,transparent 50%,#0e9f0e 50%);
   position: absolute;
   bottom: 0;
 }
@@ -27,11 +27,11 @@ exports[`Flag renders 1`] = `
 .c4 {
   margin-left: -8px;
   width: 18px;
-  color: #17fe17;
+  color: #13cf13;
   -webkit-flex: none;
   -ms-flex: none;
   flex: none;
-  background-color: #17fe17;
+  background-color: #13cf13;
   border-radius: 0 2px 2px 0;
   -webkit-transform: skew(-14deg);
   -ms-transform: skew(-14deg);
@@ -45,11 +45,11 @@ exports[`Flag renders 1`] = `
   padding-bottom: 4px;
   padding-left: 4px;
   color: #FFF;
-  background-color: #17fe17;
+  background-color: #13cf13;
   font-size: 12px;
   border-radius: 0 0 2px 0;
   color: #FFF;
-  background-color: #17fe17;
+  background-color: #13cf13;
   z-index: 2;
 }
 
@@ -66,17 +66,7 @@ exports[`Flag renders 1`] = `
 @media screen and (min-width:32em) {
   .c3 {
     padding-top: 8px;
-  }
-}
-
-@media screen and (min-width:32em) {
-  .c3 {
     padding-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:32em) {
-  .c3 {
     padding-left: 16px;
   }
 }
@@ -181,17 +171,7 @@ exports[`Flag renders with hex value as bg color 1`] = `
 @media screen and (min-width:32em) {
   .c3 {
     padding-top: 8px;
-  }
-}
-
-@media screen and (min-width:32em) {
-  .c3 {
     padding-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:32em) {
-  .c3 {
     padding-left: 16px;
   }
 }
@@ -317,17 +297,7 @@ exports[`Flag renders with theme color as bg color 1`] = `
 @media screen and (min-width:32em) {
   .c4 {
     padding-top: 8px;
-  }
-}
-
-@media screen and (min-width:32em) {
-  .c4 {
     padding-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:32em) {
-  .c4 {
     padding-left: 16px;
   }
 }
@@ -381,13 +351,13 @@ exports[`Flag renders with width prop 1`] = `
   margin-bottom: -8px;
   margin-right: -8px;
   width: 4px;
-  color: #17fe17;
+  color: #13cf13;
   width: 8px;
   height: 8px;
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
   align-self: flex-end;
-  background-image: linear-gradient(45deg,transparent 50%,#12cb12 50%);
+  background-image: linear-gradient(45deg,transparent 50%,#0e9f0e 50%);
   position: absolute;
   bottom: 0;
 }
@@ -395,11 +365,11 @@ exports[`Flag renders with width prop 1`] = `
 .c4 {
   margin-left: -8px;
   width: 18px;
-  color: #17fe17;
+  color: #13cf13;
   -webkit-flex: none;
   -ms-flex: none;
   flex: none;
-  background-color: #17fe17;
+  background-color: #13cf13;
   border-radius: 0 2px 2px 0;
   -webkit-transform: skew(-14deg);
   -ms-transform: skew(-14deg);
@@ -413,14 +383,14 @@ exports[`Flag renders with width prop 1`] = `
   padding-bottom: 4px;
   padding-left: 4px;
   color: #FFF;
-  background-color: #17fe17;
+  background-color: #13cf13;
   font-size: 12px;
   border-radius: 0 0 2px 0;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   color: #FFF;
-  background-color: #17fe17;
+  background-color: #13cf13;
   z-index: 2;
 }
 
@@ -437,17 +407,7 @@ exports[`Flag renders with width prop 1`] = `
 @media screen and (min-width:32em) {
   .c3 {
     padding-top: 8px;
-  }
-}
-
-@media screen and (min-width:32em) {
-  .c3 {
     padding-bottom: 8px;
-  }
-}
-
-@media screen and (min-width:32em) {
-  .c3 {
     padding-left: 16px;
   }
 }

@@ -15,9 +15,9 @@ exports[`Badge bg blue sets background-color and color 1`] = `
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
-  background-color: #178afe;
+  background-color: #72b8fe;
 }
 
 <div
@@ -40,9 +40,9 @@ exports[`Badge bg green sets background-color and color 1`] = `
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #17fe17;
+  background-color: #13cf13;
   color: #FFF;
-  background-color: #17fe17;
+  background-color: #13cf13;
 }
 
 <div
@@ -65,9 +65,9 @@ exports[`Badge bg lightBlue sets background-color and color 1`] = `
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #56aafe;
-  color: #126dc9;
-  background-color: #56aafe;
+  background-color: #93c9ff;
+  color: #1789fc;
+  background-color: #93c9ff;
 }
 
 <div
@@ -90,9 +90,9 @@ exports[`Badge bg lightGreen sets background-color and color 1`] = `
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #72fe72;
-  color: #12cb12;
-  background-color: #72fe72;
+  background-color: #15e315;
+  color: #0e9f0e;
+  background-color: #15e315;
 }
 
 <div
@@ -115,9 +115,9 @@ exports[`Badge bg lightRed sets background-color and color 1`] = `
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #fe7474;
-  color: #ca1212;
-  background-color: #fe7474;
+  background-color: #ffafaf;
+  color: #fe3f3f;
+  background-color: #ffafaf;
 }
 
 <div
@@ -140,9 +140,9 @@ exports[`Badge bg orange sets background-color and color 1`] = `
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #fe8b17;
+  background-color: #fe9c38;
   color: #131e1a;
-  background-color: #fe8b17;
+  background-color: #fe9c38;
 }
 
 <div
@@ -165,9 +165,9 @@ exports[`Badge bg red sets background-color and color 1`] = `
   padding-bottom: 4px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color: #fe1717;
+  background-color: #ff9595;
   color: #FFF;
-  background-color: #fe1717;
+  background-color: #ff9595;
 }
 
 <div
@@ -191,7 +191,7 @@ exports[`Badge can escape preset: bg lightBlue sets background-color and color t
   padding-left: 8px;
   padding-right: 8px;
   color: #131e1a;
-  background-color: #56aafe;
+  background-color: #93c9ff;
 }
 
 <div

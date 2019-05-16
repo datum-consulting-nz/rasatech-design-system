@@ -13,7 +13,7 @@ exports[`Button disabled prop sets 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
@@ -44,7 +44,7 @@ exports[`Button renders 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
@@ -57,7 +57,7 @@ exports[`Button renders 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 <button
@@ -78,7 +78,7 @@ exports[`Button size large sets height and font-size 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
@@ -91,7 +91,7 @@ exports[`Button size large sets height and font-size 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 <button
@@ -113,7 +113,7 @@ exports[`Button size medium sets height and font-size 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
@@ -126,7 +126,7 @@ exports[`Button size medium sets height and font-size 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 <button
@@ -148,7 +148,7 @@ exports[`Button size small sets height and font-size 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
@@ -161,7 +161,7 @@ exports[`Button size small sets height and font-size 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 <button
@@ -183,7 +183,7 @@ exports[`Button width prop sets width to 100% 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
@@ -197,7 +197,7 @@ exports[`Button width prop sets width to 100% 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 <button
@@ -219,7 +219,7 @@ exports[`Button without disabled prop sets 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
@@ -232,7 +232,7 @@ exports[`Button without disabled prop sets 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 <button

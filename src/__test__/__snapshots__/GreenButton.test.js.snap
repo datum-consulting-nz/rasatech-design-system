@@ -13,13 +13,13 @@ exports[`GreenButton disabled prop sets 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
   font-size: 14px;
   padding: 9.5px 18px;
-  background-color: #17fe17;
+  background-color: #13cf13;
 }
 
 .c0:disabled {
@@ -45,13 +45,13 @@ exports[`GreenButton renders 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
   font-size: 14px;
   padding: 9.5px 18px;
-  background-color: #17fe17;
+  background-color: #13cf13;
 }
 
 .c0:disabled {
@@ -59,11 +59,11 @@ exports[`GreenButton renders 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 .c0:hover {
-  background-color: #12cb12;
+  background-color: #0e9f0e;
 }
 
 <button
@@ -84,13 +84,13 @@ exports[`GreenButton without disabled prop sets 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
   font-size: 14px;
   padding: 9.5px 18px;
-  background-color: #17fe17;
+  background-color: #13cf13;
 }
 
 .c0:disabled {
@@ -98,11 +98,11 @@ exports[`GreenButton without disabled prop sets 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 .c0:hover {
-  background-color: #12cb12;
+  background-color: #0e9f0e;
 }
 
 <button

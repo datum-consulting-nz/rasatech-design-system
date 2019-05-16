@@ -13,7 +13,7 @@ exports[`IconButton renders without props 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
@@ -29,7 +29,7 @@ exports[`IconButton renders without props 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 .c0:hover {

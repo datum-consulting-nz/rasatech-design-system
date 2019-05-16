@@ -2,7 +2,7 @@
 
 exports[`Box bg prop sets background color 1`] = `
 .c0 {
-  background-color: #17fe17;
+  background-color: #13cf13;
 }
 
 <div
@@ -12,7 +12,7 @@ exports[`Box bg prop sets background color 1`] = `
 
 exports[`Box color prop sets color 1`] = `
 .c0 {
-  color: #178afe;
+  color: #72b8fe;
 }
 
 <div

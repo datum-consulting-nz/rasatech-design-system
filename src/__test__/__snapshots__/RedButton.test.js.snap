@@ -13,13 +13,13 @@ exports[`RedButton disabled prop sets 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
   font-size: 14px;
   padding: 9.5px 18px;
-  background-color: #fe1717;
+  background-color: #ff9595;
 }
 
 .c0:disabled {
@@ -45,13 +45,13 @@ exports[`RedButton renders 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
   font-size: 14px;
   padding: 9.5px 18px;
-  background-color: #fe1717;
+  background-color: #ff9595;
 }
 
 .c0:disabled {
@@ -59,11 +59,11 @@ exports[`RedButton renders 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 .c0:hover {
-  background-color: #ca1212;
+  background-color: #fe3f3f;
 }
 
 <button
@@ -84,13 +84,13 @@ exports[`RedButton without disabled prop sets 1`] = `
   line-height: 1.5;
   cursor: pointer;
   border-radius: 2px;
-  background-color: #178afe;
+  background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
   border-style: solid;
   font-size: 14px;
   padding: 9.5px 18px;
-  background-color: #fe1717;
+  background-color: #ff9595;
 }
 
 .c0:disabled {
@@ -98,11 +98,11 @@ exports[`RedButton without disabled prop sets 1`] = `
 }
 
 .c0:hover {
-  background-color: #126dc9;
+  background-color: #1789fc;
 }
 
 .c0:hover {
-  background-color: #ca1212;
+  background-color: #fe3f3f;
 }
 
 <button

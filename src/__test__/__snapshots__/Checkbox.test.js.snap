@@ -174,7 +174,7 @@ exports[`Checkbox renders with the theme passed specifically 1`] = `
 
 .c0 > input:checked ~ svg[data-name='checked'] {
   display: inline-block;
-  color: #178afe;
+  color: #72b8fe;
 }
 
 .c0 > input:checked ~ svg[data-name='empty'] {
@@ -247,7 +247,7 @@ exports[`Checkbox renders without the theme passed specifically 1`] = `
 
 .c0 > input:checked ~ svg[data-name='checked'] {
   display: inline-block;
-  color: #178afe;
+  color: #72b8fe;
 }
 
 .c0 > input:checked ~ svg[data-name='empty'] {
