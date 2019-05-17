@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { GreenButton, theme } from '../';
 
-describe('GreenButton', () => {
+describe('AccentButton', () => {
   test('renders', () => {
     const json = renderer.create(<GreenButton theme={theme} />).toJSON();
     expect(json).toMatchSnapshot();

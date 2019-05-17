@@ -127,6 +127,9 @@ export const brandColors = {
   accent: palette.red[6],
   lightAccent: palette.red[4],
   darkAccent: palette.red[8],
+  info: palette.blue[6],
+  lightInfo: palette.blue[4],
+  darkInfo: palette.blue[8],
   background: "#EDF2E7",
   backgroundDark: "#304549",
   text: "#131e1a"

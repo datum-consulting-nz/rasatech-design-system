@@ -3,12 +3,12 @@ import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
 import {
   Button,
-  GreenButton,
-  RedButton,
+  AccentButton,
+  InfoButton,
   OutlineButton,
   StyledButton,
-  GreenStyledButton,
-  RedStyledButton
+  AccentStyledButton,
+  InfoStyledButton
 } from '../src';
 
 storiesOf('Button', module)
@@ -17,18 +17,18 @@ storiesOf('Button', module)
     withInfo({
       inline: true,
       text:
-        'Use the <Button />,  <GreenButton />, <RedButton />,  <OutlineButton/ > components to render a primitive button.'
+        'Use the <Button />,  <AccentButton />, <InfoButton />,  <OutlineButton/ > components to render a primitive button.'
     })(() => <Button size="large">Button</Button>)
   )
   .add('color', () => (
     <div>
-      <Button m={2}>Button</Button>
-      <GreenButton m={2}>GreenButton</GreenButton>
-      <RedButton m={2}>RedButton</RedButton>
-      <OutlineButton m={2}>OutlineButton</OutlineButton>
+      <Button m={2}>Primary</Button>
+      <AccentButton m={2}>Accent</AccentButton>
+      <InfoButton m={2}>Info</InfoButton>
+      <OutlineButton m={2}>InfoButton</OutlineButton>
       <StyledButton m={2}>StyledButton</StyledButton>
-      <GreenStyledButton m={2}>StyledButton</GreenStyledButton>
-      <RedStyledButton m={2}>StyledButton</RedStyledButton>
+      <AccentStyledButton m={2}>StyledButton</AccentStyledButton>
+      <InfoStyledButton m={2}>StyledButton</InfoStyledButton>
     </div>
   ))
   .add('sizes', () => (
@@ -43,15 +43,15 @@ storiesOf('Button', module)
         Small
       </Button>
       <br />
-      <GreenStyledButton size="large" m={2} shiftLeft={'60px'}>
+      <StyledButton size="large" m={2} shiftLeft={'60px'}>
         Large
-      </GreenStyledButton>
-      <GreenStyledButton size="medium" m={2} shiftLeft={'65px'}>
+      </StyledButton>
+      <AccentStyledButton size="medium" m={2} shiftLeft={'65px'}>
         Medium
-      </GreenStyledButton>
-      <GreenStyledButton size="small" m={2} shiftLeft={'40px'}>
+      </AccentStyledButton>
+      <InfoStyledButton size="small" m={2} shiftLeft={'40px'}>
         Small
-      </GreenStyledButton>
+      </InfoStyledButton>
     </div>
   ))
   .add('width', () => <Button width={1}>Full Width</Button>)

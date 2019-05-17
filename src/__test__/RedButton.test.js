@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { RedButton, theme } from '../';
 
-describe('RedButton', () => {
+describe('InfoButton', () => {
   test('renders', () => {
     const json = renderer.create(<RedButton />).toJSON();
     expect(json).toMatchSnapshot();

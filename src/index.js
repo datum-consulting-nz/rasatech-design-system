@@ -11,7 +11,7 @@ export { default as Container } from "./Container";
 export { default as Divider } from "./Divider";
 export { default as Flag } from "./Flag";
 export { default as Flex } from "./Flex";
-export { default as GreenButton } from "./GreenButton";
+export { default as AccentButton } from "./AccentButton";
 export { default as Heading } from "./Heading";
 export { default as Hide } from "./Hide";
 export { default as Hug } from "./Hug";
@@ -28,7 +28,7 @@ export { default as Link } from "./Link";
 export { default as OutlineButton } from "./OutlineButton";
 export { default as Radio } from "./Radio";
 export { default as RatingBadge } from "./RatingBadge";
-export { default as RedButton } from "./RedButton";
+export { default as InfoButton } from "./InfoButton";
 export { default as Relative } from "./Relative";
 export { default as Stamp } from "./Stamp";
 export { default as Select } from "./Select";
@@ -38,8 +38,8 @@ export { default as ToggleBadge } from "./ToggleBadge";
 export { default as Truncate } from "./Truncate";
 export { default as Checkbox } from "./Checkbox";
 export { default as StyledButton } from './StyledButton'
-export { default as GreenStyledButton } from './GreenStyledButton'
-export { default as RedStyledButton } from './RedStyledButton'
+export { default as AccentStyledButton } from './AccentStyledButton'
+export { default as InfoStyledButton } from './InfoStyledButton'
 
 export { default as Modal } from './Modal'
 export { default as SmallModalHeader } from './SmallModalHeader'

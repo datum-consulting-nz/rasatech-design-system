@@ -58,8 +58,8 @@ const StyledButton = mapProps(({ fullWidth, ...props }) => ({
   color: ${props => props.theme.colors.white};
   border-width: 0;
   border-style: solid;
-  background-color: ${props => props.theme.colors.darkBlue};
-  box-shadow: inset 0 0 0 0 ${props => props.theme.colors.blue},
+  background-color: ${props => props.theme.colors.darkPrimary};
+  box-shadow: inset 0 0 0 0 ${props => props.theme.colors.primary},
   ${props => props.theme.boxShadows[0]};
   transition: ${props => props.theme.timingFunctions.easeInOut} 
   ${props => props.theme.transitionDelays.medium};
@@ -70,7 +70,7 @@ const StyledButton = mapProps(({ fullWidth, ...props }) => ({
 
   &:hover {
     box-shadow: inset ${props => props.shiftLeft} 0 0 0 ${props =>
-    props.disabled ? null : props.theme.colors.blue},
+    props.disabled ? null : props.theme.colors.primary},
     ${props => props.theme.boxShadows[2]};
     padding: ${props => shiftTextLeft(props)};
   }

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GreenButton disabled prop sets 1`] = `
+exports[`AccentButton disabled prop sets 1`] = `
 .c0 {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -32,7 +32,7 @@ exports[`GreenButton disabled prop sets 1`] = `
 />
 `;
 
-exports[`GreenButton renders 1`] = `
+exports[`AccentButton renders 1`] = `
 .c0 {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -71,7 +71,7 @@ exports[`GreenButton renders 1`] = `
 />
 `;
 
-exports[`GreenButton without disabled prop sets 1`] = `
+exports[`AccentButton without disabled prop sets 1`] = `
 .c0 {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
