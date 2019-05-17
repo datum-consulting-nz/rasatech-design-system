@@ -11,7 +11,7 @@ exports[`Input.test.js it renders 1`] = `
   font-size: 14px;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 0px;
   border-style: solid;
   border-color: #8F9C98;
@@ -67,7 +67,7 @@ exports[`Input.test.js it renders an input element with a really large padding a
   font-size: 14px;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 0px;
   border-style: solid;
   border-color: #8F9C98;
@@ -125,7 +125,7 @@ exports[`Input.test.js it renders an input element with a red border with a colo
   font-size: 14px;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 0px;
   border-style: solid;
   border-color: #8F9C98;
@@ -182,7 +182,7 @@ exports[`Input.test.js it renders an input element with large text 1`] = `
   font-size: 14px;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 0px;
   border-style: solid;
   border-color: #8F9C98;

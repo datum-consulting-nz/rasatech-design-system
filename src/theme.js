@@ -124,7 +124,7 @@ export const brandColors = {
   primary: "#4F944D",
   lightPrimary: "#7BB45F",
   darkPrimary: "#23733B",
-  accent: palette.red[5],
+  accent: palette.red[6],
   lightAccent: palette.red[4],
   darkAccent: palette.red[8],
   background: "#EDF2E7",
@@ -276,8 +276,8 @@ colorStyles.warning = colorStyles.textOnOrange;
 colorStyles.danger = colorStyles.whiteOnRed;
 
 // styled-system's `borderRadius` function can hook into the `radii` object/array
-export const radii = [0, 2, 6];
-export const radius = "2px";
+export const radii = [0, 5, 10];
+export const radius = "5px";
 
 export const maxContainerWidth = "1280px";
 
@@ -310,10 +310,10 @@ const timingFunctions = {
 
 // animation delay
 const transitionDelays = {
-  small: `60ms`,
-  medium: `160ms`,
-  large: `260ms`,
-  xLarge: `360ms`
+  small: `150ms`,
+  medium: `300ms`,
+  large: `450ms`,
+  xLarge: `600ms`
 };
 
 const theme = {

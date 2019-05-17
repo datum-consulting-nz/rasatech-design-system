@@ -247,10 +247,10 @@ Object {
   "monoFont": "SFMono-Regular,\\"Roboto Mono\\",Menlo,monospace",
   "radii": Array [
     0,
-    2,
-    6,
+    5,
+    10,
   ],
-  "radius": "2px",
+  "radius": "5px",
   "regular": 400,
   "space": Array [
     0,

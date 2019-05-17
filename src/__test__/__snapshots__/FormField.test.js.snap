@@ -18,7 +18,7 @@ exports[`FormField renders 1`] = `
   font-size: 14px;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 0px;
   border-style: solid;
   border-color: #8F9C98;
@@ -137,7 +137,7 @@ exports[`FormField renders with Icon 1`] = `
   font-size: 14px;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 0px;
   border-style: solid;
   border-color: #8F9C98;
@@ -277,7 +277,7 @@ exports[`FormField renders with Label autoHide prop 1`] = `
   font-size: 14px;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 0px;
   border-style: solid;
   border-color: #8F9C98;
@@ -434,7 +434,7 @@ exports[`FormField renders with Select  1`] = `
   font-family: inherit;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 1px;
   border-style: solid;
   border-color: #8F9C98;
@@ -538,7 +538,7 @@ exports[`FormField renders with Select and Icon 1`] = `
   font-family: inherit;
   color: inherit;
   background-color: transparent;
-  border-radius: 2px;
+  border-radius: 5px;
   border-width: 1px;
   border-style: solid;
   border-color: #8F9C98;

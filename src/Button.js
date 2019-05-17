@@ -39,14 +39,15 @@ const Button = mapProps(({ fullWidth, ...props }) => ({
   text-align: center;
   text-decoration: none;
   font-family: inherit;
-  font-weight: 600;
+  font-weight: ${props => props.theme.bold};
   line-height: 1.5;
   cursor: pointer;
   border-radius: ${props => props.theme.radius};
-  background-color: ${props => props.theme.colors.blue};
+  background-color: ${props => props.theme.colors.primary};
   color: ${props => props.theme.colors.white};
   border-width: 0;
   border-style: solid;
+  box-shadow: ${props => props.theme.boxShadows[0]};
 
   &:disabled {
     opacity: 0.25;
@@ -54,7 +55,8 @@ const Button = mapProps(({ fullWidth, ...props }) => ({
 
   &:hover {
     background-color: ${props =>
-  props.disabled ? null : props.theme.colors.darkBlue};
+    props.disabled ? null : props.theme.colors.darkPrimary};
+    box-shadow: ${props => props.theme.boxShadows[2]};
   }
 
   ${width} ${size} ${space};

@@ -12,7 +12,7 @@ exports[`OutlineButton disabled prop sets 1`] = `
   font-weight: 600;
   line-height: 1.5;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
@@ -51,7 +51,7 @@ exports[`OutlineButton renders 1`] = `
   font-weight: 600;
   line-height: 1.5;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: #72b8fe;
   color: #FFF;
   border-width: 0;
@@ -94,7 +94,7 @@ exports[`OutlineButton without disabled prop sets 1`] = `
   font-weight: 600;
   line-height: 1.5;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: #72b8fe;
   color: #FFF;
   border-width: 0;

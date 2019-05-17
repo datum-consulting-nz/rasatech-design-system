@@ -37,6 +37,9 @@ export { default as Tooltip } from "./Tooltip";
 export { default as ToggleBadge } from "./ToggleBadge";
 export { default as Truncate } from "./Truncate";
 export { default as Checkbox } from "./Checkbox";
+export { default as StyledButton } from './StyledButton'
+export { default as GreenStyledButton } from './GreenStyledButton'
+export { default as RedStyledButton } from './RedStyledButton'
 
 export { default as Modal } from './Modal'
 export { default as SmallModalHeader } from './SmallModalHeader'

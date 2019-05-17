@@ -3,7 +3,7 @@
 exports[`Card renders border 0 without warning 1`] = `
 .c0 {
   border: 0;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 <div
@@ -15,7 +15,7 @@ exports[`Card renders large box shadow with default border 1`] = `
 .c0 {
   box-shadow: 0 0 2px 0 rgba(0,0,0,.08),0 4px 16px 0 rgba(0,0,0,.16);
   border: 1px solid #8F9C98;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 <div
@@ -27,7 +27,7 @@ exports[`Card renders medium box shadow with default border 1`] = `
 .c0 {
   box-shadow: 0 0 2px 0 rgba(0,0,0,.08),0 2px 8px 0 rgba(0,0,0,.16);
   border: 1px solid #8F9C98;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 <div
@@ -51,7 +51,7 @@ exports[`Card renders medium box shadow with specified borderWidth 1`] = `
 .c0 {
   box-shadow: 0 0 2px 0 rgba(0,0,0,.08),0 2px 8px 0 rgba(0,0,0,.16);
   border: 2px solid #8F9C98;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 <div
@@ -63,7 +63,7 @@ exports[`Card renders small box shadow with default border 1`] = `
 .c0 {
   box-shadow: 0 0 2px 0 rgba(0,0,0,.08),0 1px 4px 0 rgba(0,0,0,.16);
   border: 1px solid #8F9C98;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 <div
@@ -75,7 +75,7 @@ exports[`Card renders xlarge box shadow with default border 1`] = `
 .c0 {
   box-shadow: 0 0 2px 0 rgba(0,0,0,.08),0 8px 32px 0 rgba(0,0,0,.16);
   border: 1px solid #8F9C98;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 <div

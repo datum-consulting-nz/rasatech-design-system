@@ -1,7 +1,15 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withInfo } from '@storybook/addon-info';
-import { Button, GreenButton, RedButton, OutlineButton } from '../src';
+import {
+  Button,
+  GreenButton,
+  RedButton,
+  OutlineButton,
+  StyledButton,
+  GreenStyledButton,
+  RedStyledButton
+} from '../src';
 
 storiesOf('Button', module)
   .add(
@@ -14,23 +22,36 @@ storiesOf('Button', module)
   )
   .add('color', () => (
     <div>
-      <Button mr={2}>Button</Button>
-      <GreenButton mr={2}>GreenButton</GreenButton>
-      <RedButton mr={2}>RedButton</RedButton>
-      <OutlineButton mr={2}>OutlineButton</OutlineButton>
+      <Button m={2}>Button</Button>
+      <GreenButton m={2}>GreenButton</GreenButton>
+      <RedButton m={2}>RedButton</RedButton>
+      <OutlineButton m={2}>OutlineButton</OutlineButton>
+      <StyledButton m={2}>StyledButton</StyledButton>
+      <GreenStyledButton m={2}>StyledButton</GreenStyledButton>
+      <RedStyledButton m={2}>StyledButton</RedStyledButton>
     </div>
   ))
   .add('sizes', () => (
     <div>
-      <Button size="large" mr={2}>
+      <Button size="large" m={2}>
         Large
       </Button>
-      <Button size="medium" mr={2}>
+      <Button size="medium" m={2}>
         Medium
       </Button>
-      <Button size="small" mr={2}>
+      <Button size="small" m={2}>
         Small
       </Button>
+      <br />
+      <GreenStyledButton size="large" m={2} shiftLeft={'60px'}>
+        Large
+      </GreenStyledButton>
+      <GreenStyledButton size="medium" m={2} shiftLeft={'65px'}>
+        Medium
+      </GreenStyledButton>
+      <GreenStyledButton size="small" m={2} shiftLeft={'40px'}>
+        Small
+      </GreenStyledButton>
     </div>
   ))
   .add('width', () => <Button width={1}>Full Width</Button>)

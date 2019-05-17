@@ -1,6 +1,6 @@
 {
   "name": "rasatech-design-system",
-  "version": "0.0.0-4",
+  "version": "0.0.0-5",
   "description": "RasaTech's Design System",
   "main": "dist/index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "clean-tag": "^3.1.1",
     "downshift": "^3.2.10",
     "lodash": "^4.17.11",
-    "palx": "^1.0.3",
+    "palx": "^1.0.2",
     "pcln-icons": "^2.0.4",
     "prop-types": "^15.7.2",
     "rc-slider": "^8.6.11",

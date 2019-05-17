@@ -32,7 +32,7 @@ exports[`Flag renders 1`] = `
   -ms-flex: none;
   flex: none;
   background-color: #13cf13;
-  border-radius: 0 2px 2px 0;
+  border-radius: 0 5px 5px 0;
   -webkit-transform: skew(-14deg);
   -ms-transform: skew(-14deg);
   transform: skew(-14deg);
@@ -47,7 +47,7 @@ exports[`Flag renders 1`] = `
   color: #FFF;
   background-color: #13cf13;
   font-size: 12px;
-  border-radius: 0 0 2px 0;
+  border-radius: 0 0 5px 0;
   color: #FFF;
   background-color: #13cf13;
   z-index: 2;
@@ -134,7 +134,7 @@ exports[`Flag renders with hex value as bg color 1`] = `
   -ms-flex: none;
   flex: none;
   background-color: #085397;
-  border-radius: 0 2px 2px 0;
+  border-radius: 0 5px 5px 0;
   -webkit-transform: skew(-14deg);
   -ms-transform: skew(-14deg);
   transform: skew(-14deg);
@@ -149,7 +149,7 @@ exports[`Flag renders with hex value as bg color 1`] = `
   color: #FFF;
   background-color: #085397;
   font-size: 12px;
-  border-radius: 0 0 2px 0;
+  border-radius: 0 0 5px 0;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -240,7 +240,7 @@ exports[`Flag renders with theme color as bg color 1`] = `
   -ms-flex: none;
   flex: none;
   background-color: purple;
-  border-radius: 0 2px 2px 0;
+  border-radius: 0 5px 5px 0;
   -webkit-transform: skew(-14deg);
   -ms-transform: skew(-14deg);
   transform: skew(-14deg);
@@ -255,7 +255,7 @@ exports[`Flag renders with theme color as bg color 1`] = `
   color: #FFF;
   background-color: purple;
   font-size: 12px;
-  border-radius: 0 0 2px 0;
+  border-radius: 0 0 5px 0;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
@@ -370,7 +370,7 @@ exports[`Flag renders with width prop 1`] = `
   -ms-flex: none;
   flex: none;
   background-color: #13cf13;
-  border-radius: 0 2px 2px 0;
+  border-radius: 0 5px 5px 0;
   -webkit-transform: skew(-14deg);
   -ms-transform: skew(-14deg);
   transform: skew(-14deg);
@@ -385,7 +385,7 @@ exports[`Flag renders with width prop 1`] = `
   color: #FFF;
   background-color: #13cf13;
   font-size: 12px;
-  border-radius: 0 0 2px 0;
+  border-radius: 0 0 5px 0;
   -webkit-flex: 1 1 auto;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
