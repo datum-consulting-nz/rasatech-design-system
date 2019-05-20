@@ -47,6 +47,7 @@ export { default as ModalHeader } from './ModalHeader'
 export { default as ScrollLock } from './ScrollLock'
 export { default as Slider } from './Slider'
 export  *  from './Autocomplete'
+export {default as DropdownButton} from './DropdownButton'
 
 export { default as theme } from "./theme";
 export { default as ThemeProvider } from "./ThemeProvider";

@@ -8,7 +8,8 @@ import {
   OutlineButton,
   StyledButton,
   AccentStyledButton,
-  InfoStyledButton
+  InfoStyledButton,
+  DropdownButton
 } from '../src';
 
 storiesOf('Button', module)
@@ -20,6 +21,11 @@ storiesOf('Button', module)
         'Use the <Button />,  <AccentButton />, <InfoButton />,  <OutlineButton/ > components to render a primitive button.'
     })(() => <Button size="large">Button</Button>)
   )
+  .add('dropdown', () => (
+    <div>
+      <DropdownButton>Action</DropdownButton>
+    </div>
+  ))
   .add('color', () => (
     <div>
       <Button m={2}>Primary</Button>

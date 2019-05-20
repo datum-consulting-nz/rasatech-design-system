@@ -43,20 +43,21 @@ const Button = mapProps(({ fullWidth, ...props }) => ({
   line-height: 1.5;
   cursor: pointer;
   border-radius: ${props => props.theme.radius};
-  background-color: ${props => props.theme.colors.primary};
-  color: ${props => props.theme.colors.white};
+  background-color: ${props => props.theme.colors[props.bg]};
+  color: ${props => props.theme.colors[props.color]};
   border-width: 0;
   border-style: solid;
-  box-shadow: ${props => props.theme.boxShadows[0]};
+  box-shadow: ${props => props.boxShadow==="none" ? "none" : props.theme.boxShadows[0]};
 
   &:disabled {
     opacity: 0.25;
   }
 
   &:hover {
+    color: ${props => props.theme.colors[props.hoverColor]}
     background-color: ${props =>
-    props.disabled ? null : props.theme.colors.darkPrimary};
-    box-shadow: ${props => props.theme.boxShadows[2]};
+    props.disabled ? null : props.theme.colors[props.hoverBg]};
+    box-shadow: ${props => props.boxShadow==="none" ? "none" : props.theme.boxShadows[2]};
   }
 
   ${width} ${size} ${space};
@@ -66,11 +67,19 @@ Button.propTypes = {
   size: PropTypes.oneOf(["small", "medium", "large"]),
   ...width.propTypes,
   ...space.propTypes,
-  fullWidth: deprecatedPropType("width")
+  fullWidth: deprecatedPropType("width"),
+  color: PropTypes.string,
+  bg: PropTypes.string,
+  hoverBg: PropTypes.string
 };
 
 Button.defaultProps = {
-  theme: theme
+  theme: theme,
+  color: "white",
+  hoverColor: "white",
+  bg: "primary",
+  hoverBg: "darkPrimary",
+  boxShadow: "yes"
 };
 
 Button.displayName = "Button";

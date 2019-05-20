@@ -132,7 +132,8 @@ export const brandColors = {
   darkInfo: palette.blue[8],
   background: "#EDF2E7",
   backgroundDark: "#304549",
-  text: "#131e1a"
+  text: "#131e1a",
+  transparent: "transparent"
 };
 
 export const grayColors = {
