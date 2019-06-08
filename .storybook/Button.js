@@ -26,6 +26,11 @@ storiesOf('Button', module)
       <DropdownButton>Action</DropdownButton>
     </div>
   ))
+  .add('Change text size', () => (
+    <div>
+      <Button size="large" fontSize={[5]}>Action</Button>
+    </div>
+  ))
   .add('color', () => (
     <div>
       <Button m={2}>Primary</Button>

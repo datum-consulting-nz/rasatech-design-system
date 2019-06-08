@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { width, space } from "styled-system";
+import { width, space, fontSize } from "styled-system";
 import theme from "./theme";
 import { mapProps, deprecatedPropType } from "./utils";
 
@@ -60,15 +60,17 @@ const Button = mapProps(({ fullWidth, ...props }) => ({
     box-shadow: ${props => props.boxShadow==="none" ? "none" : props.theme.boxShadows[2]};
   }
 
-  ${width} ${size} ${space};
+  ${width} ${size} ${space} ${fontSize};
 `);
 
 Button.propTypes = {
   size: PropTypes.oneOf(["small", "medium", "large"]),
   ...width.propTypes,
   ...space.propTypes,
+  ...fontSize.propTypes,
   fullWidth: deprecatedPropType("width"),
   color: PropTypes.string,
+  hoverColor: PropTypes.string,
   bg: PropTypes.string,
   hoverBg: PropTypes.string
 };
