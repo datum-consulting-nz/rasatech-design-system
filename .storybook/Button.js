@@ -28,7 +28,9 @@ storiesOf('Button', module)
   ))
   .add('Change text size', () => (
     <div>
-      <Button size="large" fontSize={[5]}>Action</Button>
+      <Button size="large" fontSize={[5]}>
+        Action
+      </Button>
     </div>
   ))
   .add('color', () => (

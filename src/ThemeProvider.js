@@ -20,6 +20,23 @@ export const Base = styled.div`
 
   * {
     box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  html,
+  body {
+    min-height: 100%;
+    min-width: 100%;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    height: 100%;
+    max-height: 100%;
+    width: 100%;
   }
 `;
 
