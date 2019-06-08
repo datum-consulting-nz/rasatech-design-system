@@ -1,6 +1,8 @@
 # rasatech-design-system
 RasaTech design system implemeted in React.js
 
+`npm i --save rasatech-design-system`
+
 ## workflow setup
 `master` branch is protected for non-admin people:
 
