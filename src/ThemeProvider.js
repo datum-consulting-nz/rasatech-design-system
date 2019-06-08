@@ -1,23 +1,9 @@
 import React from "react";
 import PropTypes from "prop-types";
-import styled, { ThemeProvider as StyledThemeProvider } from "styled-components";
+import styled, { ThemeProvider as StyledThemeProvider, createGlobalStyle } from "styled-components";
 import nextTheme from "./theme";
 
-export const Base = styled.div`
-  color: ${props => props.theme.brandColors.text};
-  font-family: ${props => props.theme.font};
-  line-height: ${props => props.theme.lineHeights.standard};
-  font-weight: ${props => props.theme.fontWeights.medium};
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: ${props => props.theme.headingFont};
-  }
-
+const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
     -webkit-appearance: none;
@@ -38,6 +24,22 @@ export const Base = styled.div`
     max-height: 100%;
     width: 100%;
   }
+`
+
+export const Base = styled.div`
+  color: ${props => props.theme.brandColors.text};
+  font-family: ${props => props.theme.font};
+  line-height: ${props => props.theme.lineHeights.standard};
+  font-weight: ${props => props.theme.fontWeights.medium};
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: ${props => props.theme.headingFont};
+  }
 `;
 
 const ThemeProvider = ({ customTheme, customBreakpoints, ...props }) => {
@@ -57,9 +59,12 @@ const ThemeProvider = ({ customTheme, customBreakpoints, ...props }) => {
 
 
   return (
+    <>
+      <GlobalStyle/>
       <StyledThemeProvider theme={theme}>
         <Base {...props} />
       </StyledThemeProvider>
+    </>
   );
 };
 
